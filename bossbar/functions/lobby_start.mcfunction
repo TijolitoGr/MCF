@@ -1,0 +1,1 @@
+bossbar set minecraft:title visible true

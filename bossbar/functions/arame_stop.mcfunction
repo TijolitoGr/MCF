@@ -1,0 +1,1 @@
+bossbar set minecraft:arame visible false
