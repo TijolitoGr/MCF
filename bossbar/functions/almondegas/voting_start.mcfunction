@@ -1,0 +1,1 @@
+bossbar set minecraft:voting_time visible true

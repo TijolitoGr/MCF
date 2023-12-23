@@ -1,0 +1,1 @@
+bossbar set minecraft:task_progress visible true

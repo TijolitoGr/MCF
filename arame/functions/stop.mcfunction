@@ -4,18 +4,23 @@
 # Spectators
 gamemode adventure @a[team=esp]
 
+# Players
+scoreboard players set @a timer_arame 0
+scoreboard players set @a clock 0
+
 # Bossbars
 function bossbar:lobby_start
 function bossbar:arame_stop
 
-# Villagers
+# "Clear" Villagers & Horses
 kill @e[type=minecraft:villager]
+kill @e[type=minecraft:horse]
 
 # Destroy Teleporters (Beacons)
-setblock 32 154 12 air
-setblock 32 154 -2 air
-setblock -28 154 -2 air
-setblock -28 154 12 air
+# setblock 32 154 12 air
+# setblock 32 154 -2 air
+# setblock -28 154 -2 air
+# setblock -28 154 12 air
 
 # Stop Darkness Clock Timer
 setblock -7 148 4 air

@@ -1,13 +1,17 @@
 # start.mcfunction | arame:start
-# Start an Arame game.
+# Start and Configurations of an Arame Game.
 
 # Players
+clear @a
+effect clear @a
 gamemode spectator @a[team=esp]
 gamemode adventure @a[team=blue]
 gamemode adventure @a[team=red]
 execute in minecraft:m_arame run tp @a[team=esp] 3.53 190.51 39.75 180.03 42.50
-execute in minecraft:m_arame run tp @a[team=blue] -113.43 153.00 13.84 -180.22 -1.19
-execute in minecraft:m_arame run tp @a[team=red] 118.44 153.00 -0.23 -359.73 -1.40
+execute in minecraft:m_arame run tp @a[team=blue] -113.43 153 13.84 -180.22 -1.19
+spawnpoint @a[team=blue] -113 153 13
+execute in minecraft:m_arame run tp @a[team=red] 118.44 153 -0.23 -359.73 -1.40
+spawnpoint @a[team=red] 118 153 -0
 scoreboard players set @a timer_arame 0
 
 # Reset & Start the Darkness Clock (0):
@@ -45,21 +49,26 @@ setblock -63 150 5 minecraft:repeater[facing=west]
 function bossbar:lobby_stop
 function bossbar:arame_start
 
-# Villagers (500HP)
-summon villager -14.5 156 5.5 \
-{VillagerData:{type:desert,profession:nitwit,level:99},Health:1000,NoAI:1b,OnGround:1b,Silent:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}],Age:200000,Attributes:[{Name:"generic.max_health",Base:3000f}],display:{Name:'[{"text":"Estatua","italic":false}]'}}
-summon villager 19.5 156 5.5 \
-{VillagerData:{type:desert,profession:nitwit,level:99},Health:1000,NoAI:1b,OnGround:1b,Silent:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}],Age:200000,Attributes:[{Name:"generic.max_health",Base:3000f}],display:{Name:'[{"text":"Estatua","italic":false}]'}}
 # Villagers (1000HP)
+summon villager -14.5 156 5.5 \
+{VillagerData:{type:desert,profession:nitwit,level:99},Health:1000,NoAI:1b,OnGround:1b,Silent:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}],Age:200000,Attributes:[{Name:"generic.max_health",Base:5000f}],display:{Name:'[{"text":"Estatua","italic":false}]'}}
+summon villager 19.5 156 5.5 \
+{VillagerData:{type:desert,profession:nitwit,level:99},Health:1000,NoAI:1b,OnGround:1b,Silent:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}],Age:200000,Attributes:[{Name:"generic.max_health",Base:5000f}],display:{Name:'[{"text":"Estatua","italic":false}]'}}
+# Villagers (2000HP)
 summon villager -31.5 156 5.5 \
-{VillagerData:{type:desert,profession:nitwit,level:99},Health:2000,NoAI:1b,OnGround:1b,Silent:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}],Age:200000,Attributes:[{Name:"generic.max_health",Base:3000f}],display:{Name:'[{"text":"Estatua","italic":false}]'}}
+{VillagerData:{type:desert,profession:nitwit,level:99},Health:2000,NoAI:1b,OnGround:1b,Silent:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}],Age:200000,Attributes:[{Name:"generic.max_health",Base:5000f}],display:{Name:'[{"text":"Estatua","italic":false}]'}}
 summon villager 36.5 156 5.5 \
-{VillagerData:{type:desert,profession:nitwit,level:99},Health:2000,NoAI:1b,OnGround:1b,Silent:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}],Age:200000,Attributes:[{Name:"generic.max_health",Base:3000f}],display:{Name:'[{"text":"Estatua","italic":false}]'}}
-# Villagers (1500HP)
+{VillagerData:{type:desert,profession:nitwit,level:99},Health:2000,NoAI:1b,OnGround:1b,Silent:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}],Age:200000,Attributes:[{Name:"generic.max_health",Base:5000f}],display:{Name:'[{"text":"Estatua","italic":false}]'}}
+# Villagers (3000HP)
 summon villager -48.5 156 5.5 \
-{VillagerData:{type:desert,profession:nitwit,level:99},Health:3000,NoAI:1b,OnGround:1b,Silent:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}],Age:200000,Attributes:[{Name:"generic.max_health",Base:3000f}],display:{Name:'[{"text":"Estatua","italic":false}]'}}
+{VillagerData:{type:desert,profession:nitwit,level:99},Health:3000,NoAI:1b,OnGround:1b,Silent:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}],Age:200000,Attributes:[{Name:"generic.max_health",Base:5000f}],display:{Name:'[{"text":"Estatua","italic":false}]'}}
 summon villager 53.5 156 5.5 \
-{VillagerData:{type:desert,profession:nitwit,level:99},Health:3000,NoAI:1b,OnGround:1b,Silent:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}],Age:200000,Attributes:[{Name:"generic.max_health",Base:3000f}],display:{Name:'[{"text":"Estatua","italic":false}]'}}
+{VillagerData:{type:desert,profession:nitwit,level:99},Health:3000,NoAI:1b,OnGround:1b,Silent:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}],Age:200000,Attributes:[{Name:"generic.max_health",Base:5000f}],display:{Name:'[{"text":"Estatua","italic":false}]'}}
+# Villagers (5000HP)
+summon villager 119.5 177 5.5 \
+{VillagerData:{type:desert,profession:nitwit,level:99},Health:5000,NoAI:1b,OnGround:1b,Silent:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}],Age:200000,Attributes:[{Name:"generic.max_health",Base:5000f}],display:{Name:'[{"text":"Estatua","italic":false}]'}}
+summon villager -114.5 177 5.5 \
+{VillagerData:{type:desert,profession:nitwit,level:99},Health:5000,NoAI:1b,OnGround:1b,Silent:1b,active_effects:[{id:invisibility,duration:-1,show_particles:0b}],Age:200000,Attributes:[{Name:"generic.max_health",Base:5000f}],display:{Name:'[{"text":"Estatua","italic":false}]'}}
 
 # Build Towers/Statues - Red Side
 clone 21 100 3 19 91 7 19 153 3
@@ -79,3 +88,6 @@ clone 67 97 4 65 91 6 65 156 11
 # Build Anexos - Red && Blue
 clone 124 95 0 114 91 10 114 172 0
 clone -120 95 10 -110 91 0 -120 172 0
+
+# Spawn all Trading Villagers - See file: villagers.mcfunction
+function arame:villagers
