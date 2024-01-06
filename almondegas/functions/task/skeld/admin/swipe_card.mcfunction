@@ -1,0 +1,1 @@
+give @p compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:-13, Y:114, Z:-32},display:{Name:'[{"text":"Administração:","italic":false,"color":"green","bold":true},{"text":" Passar o Cartão","bold":false}]'}}

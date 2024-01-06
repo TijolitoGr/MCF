@@ -1,0 +1,1 @@
+give @p compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:-1, Y:114, Z:-60},display:{Name:'[{"text":"Armas:","italic":false,"color":"green","bold":true},{"text":" Destruir Asteroides","bold":false}]'}}

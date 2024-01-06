@@ -1,0 +1,1 @@
+give @p compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:-44, Y:114, Z:-44},display:{Name:'[{"text":"Enfermaria:","italic":false,"color":"green","bold":true},{"text":" Submeter um Escaneamento","bold":false}]'}}

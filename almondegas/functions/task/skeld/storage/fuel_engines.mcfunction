@@ -1,0 +1,1 @@
+give @p compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:-32, Y:114, Z:-21},display:{Name:'[{"text":"Armazenamento:","italic":false,"color":"green","bold":true},{"text":" Inserir Combústivel nos Motores","bold":false}]'}}

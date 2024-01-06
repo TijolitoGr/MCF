@@ -1,0 +1,1 @@
+give @p compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:20, Y:114, Z:-43},display:{Name:'[{"text":"Navegação:","italic":false,"color":"green","bold":true},{"text":" Estabilizar Direção","bold":false}]'}}

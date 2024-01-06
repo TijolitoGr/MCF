@@ -1,0 +1,1 @@
+give @p compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:-81, Y:114, Z:-52},display:{Name:'[{"text":"Reator:","italic":false,"color":"green","bold":true},{"text":" Desbloquear Coletores","bold":false}]'}}

@@ -1,0 +1,1 @@
+give @p compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:-14, Y:114, Z:-57},display:{Name:'[{"text":"Cafetaria:","italic":false,"color":"green","bold":true},{"text":" Limpar a Ventilação","bold":false}]'}}

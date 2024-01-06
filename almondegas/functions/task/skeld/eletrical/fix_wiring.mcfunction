@@ -1,0 +1,1 @@
+give @p compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:-46, Y:114, Z:-38},display:{Name:'[{"text":"Elétrica:","italic":false,"color":"green","bold":true},{"text":" Arranjar Fios","bold":false}]'}}

@@ -1,0 +1,1 @@
+give @p compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:-61, Y:114, Z:-66},display:{Name:'[{"text":"Motor Superior:","italic":false,"color":"green","bold":true},{"text":" Desviar Eletrecidade","bold":false}]'}}

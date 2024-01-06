@@ -1,0 +1,1 @@
+give @p compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:-2, Y:114, Z:-67},display:{Name:'[{"text":"Armas:","italic":false,"color":"green","bold":true},{"text":" Levantar Dados","bold":false}]'}}

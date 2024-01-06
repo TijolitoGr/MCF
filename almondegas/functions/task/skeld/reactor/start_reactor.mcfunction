@@ -1,0 +1,1 @@
+give @p compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:-80, Y:114, Z:-45},display:{Name:'[{"text":"Reator:","italic":false,"color":"green","bold":true},{"text":" Iniciar Reator","bold":false}]'}}

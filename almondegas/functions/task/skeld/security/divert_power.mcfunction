@@ -1,0 +1,1 @@
+give @p compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:-56, Y:114, Z:-48},display:{Name:'[{"text":"Segurança:","italic":false,"color":"green","bold":true},{"text":" Desviar Eletrecidade","bold":false}]'}}

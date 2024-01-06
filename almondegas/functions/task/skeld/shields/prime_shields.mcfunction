@@ -1,0 +1,1 @@
+give @p compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:-6, Y:114, Z:-18},display:{Name:'[{"text":"Escudos:","italic":false,"color":"green","bold":true},{"text":" Ativar Escudos","bold":false}]'}}

@@ -1,0 +1,1 @@
+give @p compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:-13, Y:114, Z:-47},display:{Name:'[{"text":"Oxigénio:","italic":false,"color":"green","bold":true},{"text":" Pegar o Lixo","bold":false}]'}}
