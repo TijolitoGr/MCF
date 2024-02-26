@@ -7,5 +7,7 @@ tag @p remove stalker
 tag @p remove leaf
 tag @p remove firestone
 tag @p remove twilight
+tag @p remove motion
+tag @p remove rise
 
-# Numero de Agentes: 9
+# Numero de Agentes: 11
