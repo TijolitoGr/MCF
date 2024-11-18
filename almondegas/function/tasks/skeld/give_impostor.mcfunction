@@ -1,0 +1,9 @@
+give @a[tag=imp] compass{LodestoneTracked:0,LodestoneDimension:"minecraft:the_end",LodestonePos:{X:-26, Y:115, Z:-60},display:{Name:'[{"text":"SABOTAGEM:","italic":false,"color":"dark_red","bold":true},{"text":" Tarefa Falsa","bold":false}]'},Enchantments:[{}]} 16
+give @a[tag=imp] iron_door{display:{Name:'[{"text":"SABOTAGEM:","italic":false,"color":"dark_red","bold":true},{"text":" Trancar Portas","bold":false}]'},Enchantments:[{}]}
+give @a[tag=imp] light{display:{Name:'[{"text":"SABOTAGEM:","italic":false,"color":"dark_red","bold":true},{"text":" Apagar Luzes","bold":false}]'},Enchantments:[{}]}
+give @a[tag=imp] fern{display:{Name:'[{"text":"SABOTAGEM:","italic":false,"color":"dark_red","bold":true},{"text":" Oxigénio","bold":false}]'},Enchantments:[{}]}
+give @a[tag=imp] pearlescent_froglight{display:{Name:'[{"text":"SABOTAGEM:","italic":false,"color":"dark_red","bold":true},{"text":" Reator","bold":false}]'},Enchantments:[{}]}
+item replace entity @a[tag=imp] container.10 with minecraft:barrier
+item replace entity @a[tag=imp] container.12 with minecraft:barrier
+item replace entity @a[tag=imp] container.14 with minecraft:barrier
+item replace entity @a[tag=imp] container.16 with minecraft:barrier

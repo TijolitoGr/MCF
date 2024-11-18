@@ -1,0 +1,1 @@
+clear @a[distance=..16]

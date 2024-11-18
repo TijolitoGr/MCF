@@ -1,0 +1,2 @@
+function habilidades:primaria
+function habilidades:secundaria

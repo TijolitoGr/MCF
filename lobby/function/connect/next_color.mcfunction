@@ -1,0 +1,2 @@
+execute if entity @p[tag=connect4_red,distance=..2] run setblock ~2 ~9 ~ minecraft:red_concrete_powder
+execute if entity @p[tag=connect4_blue,distance=..2] run setblock ~2 ~9 ~ minecraft:blue_concrete_powder
